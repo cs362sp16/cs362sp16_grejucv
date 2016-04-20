@@ -1,0 +1,9 @@
+The cards I moved out of the switch statement and into functions: 
+	1. adventurer 
+	2. village
+	3. council_room 
+	4. smithy 
+	5. great_hall 
+
+The functions were placed right before the cardEffect function. Two of the cards also 
+have new bugs introduced now. 
