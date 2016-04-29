@@ -1,0 +1,251 @@
+Testing isGameOver()
+TESTS SUCCESSFULLY COMPLETED
+GCOV AFTER UNITTEST 1
+File 'dominion.c'
+Lines executed:19.92% of 650
+dominion.c:creating 'dominion.c.gcov'
+
+TESTING initializeGame()
+TESTS SUCCESSFULLY COMPLETED
+GCOV AFTER UNITTEST 2
+File 'dominion.c'
+Lines executed:26.92% of 650
+dominion.c:creating 'dominion.c.gcov'
+
+Testing buyCard()
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+GCOV AFTER UNITTEST 3
+File 'dominion.c'
+Lines executed:22.46% of 650
+dominion.c:creating 'dominion.c.gcov'
+
+Testing getCost()
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+GCOV AFTER UNITTEST 4
+File 'dominion.c'
+Lines executed:24.46% of 650
+dominion.c:creating 'dominion.c.gcov'
+
+testing village_function()
+TESTS SUCCESSFULLY COMPLETED
+TEST FAILED: Should have added 3 actions
+TEST FAILED: Should have five cards after adding and discarding
+GCOV AFTER CARDTEST 1 
+File 'dominion.c'
+Lines executed:28.62% of 650
+dominion.c:creating 'dominion.c.gcov'
+
+GCOV AFTER CARDTEST 2
+File 'dominion.c'
+Lines executed:28.62% of 650
+dominion.c:creating 'dominion.c.gcov'
+
+GCOV AFTER CARDTEST 2
+File 'dominion.c'
+Lines executed:28.62% of 650
+dominion.c:creating 'dominion.c.gcov'
+
+testing outpost
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+GCOV AFTER CARDTEST 3
+File 'dominion.c'
+Lines executed:29.38% of 650
+dominion.c:creating 'dominion.c.gcov'
+
+testing steward
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+TESTS SUCCESSFULLY COMPLETED
+GCOV AFTER CARDTEST 4
+File 'dominion.c'
+Lines executed:29.38% of 650
+dominion.c:creating 'dominion.c.gcov'
+
+Starting game.
+0: bought silver
+0: end turn
+Player 0: 3
+Player 1: 2
+1: bought silver
+1: endTurn
+Player 0: 4
+Player 1: 3
+0: bought smithy
+0: end turn
+Player 0: 4
+Player 1: 4
+1: bought silver
+1: endTurn
+Player 0: 2
+Player 1: 4
+0: bought silver
+0: end turn
+Player 0: 2
+Player 1: 1
+1: bought silver
+1: endTurn
+Player 0: 3
+Player 1: 3
+0: smithy played from position 3
+smithy played.
+0: bought gold
+0: end turn
+Player 0: 4
+Player 1: 5
+1: bought silver
+1: endTurn
+Player 0: 6
+Player 1: 6
+0: bought smithy
+0: end turn
+Player 0: 6
+Player 1: 1
+1: bought adventurer
+1: endTurn
+Player 0: 0
+Player 1: 2
+0: smithy played from position 0
+smithy played.
+0: bought province
+0: end turn
+Player 0: 10
+Player 1: 4
+1: bought silver
+1: endTurn
+Player 0: 11
+Player 1: 6
+0: bought silver
+0: end turn
+Player 0: 11
+Player 1: 1
+1: bought silver
+1: endTurn
+Player 0: 2
+Player 1: 2
+0: bought silver
+0: end turn
+Player 0: 2
+Player 1: 3
+1: bought adventurer
+1: endTurn
+Player 0: 9
+Player 1: 5
+0: bought silver
+0: end turn
+Player 0: 16
+Player 1: 6
+1: adventurer played from position 1
+1: bought gold
+1: endTurn
+Player 0: 16
+Player 1: 2
+0: bought gold
+0: end turn
+Player 0: 13
+Player 1: 3
+1: adventurer played from position 1
+1: bought gold
+1: endTurn
+Player 0: 6
+Player 1: 0
+0: bought gold
+0: end turn
+Player 0: 7
+Player 1: 2
+1: bought silver
+1: endTurn
+Player 0: 8
+Player 1: 2
+0: bought gold
+0: end turn
+Player 0: 10
+Player 1: 2
+1: adventurer played from position 1
+1: bought province
+1: endTurn
+Player 0: 12
+Player 1: 10
+0: bought gold
+0: end turn
+Player 0: 18
+Player 1: 10
+1: adventurer played from position 2
+1: bought province
+1: endTurn
+Player 0: 1
+Player 1: 10
+0: bought gold
+0: end turn
+Player 0: 1
+Player 1: 1
+1: bought gold
+1: endTurn
+Player 0: 8
+Player 1: 7
+0: bought silver
+0: end turn
+Player 0: 9
+Player 1: 9
+1: adventurer played from position 4
+1: bought gold
+1: endTurn
+Player 0: 10
+Player 1: 22
+0: bought province
+0: end turn
+Player 0: 24
+Player 1: 22
+1: bought province
+1: endTurn
+Player 0: 24
+Player 1: 30
+0: bought province
+0: end turn
+Player 0: 24
+Player 1: 6
+1: bought province
+1: endTurn
+Player 0: 1
+Player 1: 24
+0: bought province
+0: end turn
+Player 0: 13
+Player 1: 26
+Finished game.
+Player 0: 13
+Player 1: 26
+GCOV AFTER PLAYING A GAME
+File 'dominion.c'
+Lines executed:47.08% of 650
+dominion.c:creating 'dominion.c.gcov'
+

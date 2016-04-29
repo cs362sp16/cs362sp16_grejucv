@@ -1,0 +1,10 @@
+I finished with 47.08% of of 650.
+unit tests: 
+	isGameOver() 
+	initializeGame() 
+	buyCard() 
+	getCost() 
+	village_function() 
+	smithy_function() 
+	steward 
+	outpost 

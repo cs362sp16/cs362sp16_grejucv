@@ -75,7 +75,6 @@ unittestresults.out: unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2
 
 
 
-
 interface.o: interface.h interface.c
 	gcc -c interface.c -g  $(CFLAGS)
 

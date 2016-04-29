@@ -5,7 +5,6 @@
 #include <string.h>
 #include "interface.h"
 #include "dominion.h"
-#include "dominion.c"
 
 //My assertTrue function
 int assertTrue(int test, char* message){
@@ -28,8 +27,9 @@ int main(){
     initializeGame(2, k, 3, &G);
     
     G.hand[0][0] = village;
-    village_function(1,&G,1);
-    int i = G.numActions;
-    assertTrue(G.numActions == i+3, "village function should add 3");
-   
+    G.numActions = 1;
+    assertTrue(numHandCards(&G)==5, "Should have five cards");
+    cardEffect(steward, 1, 0, 0, &G, 0, 0);
+    assertTrue(G.numActions == 4, "Should have added 3 actions");
+    assertTrue(numHandCards(&G)==5, "Should have five cards after adding and discarding");
 }

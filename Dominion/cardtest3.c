@@ -24,12 +24,10 @@ int main(){
 	       sea_hag, tribute, smithy};
     
     initializeGame(2, k, 2, &G);
-    G.hand[0][0] = steward;
-    G.coins = 0;
-    assertTrue(numHandCards(&G) == 5, "Should have five cards");
-    cardEffect(steward, 1, 0, 0, &G, 0, 0);
-    cardEffect(steward, 2, 0, 0, &G, 0, 0);
-    assertTrue(G.coins == 2, "Coins should be up 2");
-    cardEffect(steward, 3, 0, 0, &G, 0,0);
-    assertTrue(numHandCards(&G) == 2, "Should have two cards");
+    G.hand[0][0] = outpost;
+    G.outpostPlayed = 0;
+    assertTrue(numHandCards(&G)==5, "Should have five cards");
+    cardEffect(outpost, 1, 0, 0, &G, 0, 0);
+    assertTrue(G.outpostPlayed = 1, "outpostPlayed should be one");
+    assertTrue(numHandCards(&G)==5, "Should have four cards");
 }
