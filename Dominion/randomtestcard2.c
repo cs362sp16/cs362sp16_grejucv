@@ -19,7 +19,12 @@ int main(int argc, char *argv[]){
         int k[10] = {adventurer, gardens, embargo, village, minion, mine, cutpurse,
             sea_hag, tribute, smithy};
         int num_players = rand() % 3 + 2;
-    
+        int Seed = rand() % 2000;
+        int test, choice1, choice2, choice3;
+        initializeGame(num_players, k, Seed, &G);
+        G.hand[0][0] = outpost;
+        G.outpostPlayed = 0;
+        
         initializeGame(num_players, k, 2, &G);
         G.hand[0][0] = outpost;
         G.outpostPlayed = 0;
@@ -42,6 +47,14 @@ int main(int argc, char *argv[]){
         }else{
             passed++;
         }
+
+        test = cardEffect(outpost, choice1,choice2,choice3, &G,1);
+        if(test == 0){
+            passed++;
+        }else{
+            failed++;
+        }
+        
         
     }
     printf("Tests passed: %i\n", passed);

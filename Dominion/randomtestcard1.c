@@ -19,38 +19,27 @@ int main(){
 	                 sea_hag, tribute, smithy};
         
         int num_players = rand() % 3 + 2;
-        //int Seed = rand() % 5000;
+        int Seed = rand() % 2000;
+        int choice1, choice2, choice3, handPos;
     
-        test = initializeGame(num_players, k, 2, &G);
+        test = initializeGame(num_players, k, Seed, &G);
         if(test != 0){
             failed++;
             printf("Initialize failure\n");
         }
+        int current_player = rand() % num_players;
+        G.whoseTurn = current_player;
+        choice1 = rand() % 5;
+        choice2 = rand() % 5;
+        handPos = rand() % 5;
         G.hand[0][0] = steward;
-        G.coins = 0;
-        if(numHandCards(&G)!=5){
-            failed++;
-        }else{
-            passed++;
-        }
-        cardEffect(steward, 1, 0, 0, &G, 0, 0);
-        if(numHandCards(&G)!=6){
-            failed++;
-        }else{
-            passed++;
-        }
-        cardEffect(steward, 2, 0, 0, &G, 0, 0);
-        if(G.coins !=6){
-            failed++;
-        }else{
-            passed++;
-        }
+        G.coins = rand() % 20; 
         
-        cardEffect(steward, 0, 0, 0, &G, 0, 0);
-        if(numHandCards(&G)!=2){
-            failed++;
-        }else{
+        test = cardEffect(steward, choice1,choice2,choice3, &G, handPos, 1);
+        if(test == 0){
             passed++;
+        }else{
+            failed++;
         }
         
     }
