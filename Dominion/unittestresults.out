@@ -248,4 +248,3 @@ GCOV AFTER PLAYING A GAME
 File 'dominion.c'
 Lines executed:47.08% of 650
 dominion.c:creating 'dominion.c.gcov'
-

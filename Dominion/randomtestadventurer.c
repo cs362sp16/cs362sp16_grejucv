@@ -7,22 +7,37 @@
 #include "interface.h"
 #include "dominion.h"
 
-//My assertTrue function
-int assertTrue(int test, char* message){
-    if(test == 0){
-        printf("TEST FAILED: %s\n", message);
-        return 1;
-    }else{
-        printf("TESTS SUCCESSFULLY COMPLETED\n");
-        return 0;
-    }
-}
-
-int main(){
+int main(int argc, char *argv[]){
     printf("Random testing adventurer\n");
     srand(time(NULL));
-    int r_num = rand() % 100;
+    int i, passed =0, failed =0, test, handCount, deckCount;
+    for(i=0; i<1000;i++){
+        struct gameState G, G2;
+        int k[10] = {adventurer, gardens, embargo, village, minion, mine, cutpurse,
+	                 sea_hag, tribute, smithy};
     
-    
+        int num_players = rand() % 3 + 2;
+        int Seed = rand() % 5000;
+        int choice1, choice2;
 
+        test = initializeGame(num_players, k, Seed, &G);
+        if(test != 0){
+            failed++;
+            printf("Initialize failure\n");
+        }
+        
+        int current_player = rand() % num_players;
+        G.whoseTurn = current_player;
+        choice1 = rand() % 26;
+        choice2 = rand() % 26;
+        
+        test = cardEffect(adventurer, choice1,choice2,1, &G);
+        if(test == 0){
+            passed++;
+        }else{
+            failed++;
+        }
+    
+    }
+    printf("Cases that passed: %i\nCases that failed: %i", passed, failed);
 }
