@@ -37,7 +37,7 @@ cardtest4: cardtest4.c dominion.o
 randomtestcard1: randomtestcard1.c dominion.o
 	gcc -o randomtestcard1 randomtestcard1.c -g dominion.o rngs.o $(CFLAGS)
 
-randomtestcard2: randomtestcard4.c dominion.o
+randomtestcard2: randomtestcard2.c dominion.o
 	gcc -o randomtestcard2 randomtestcard2.c -g dominion.o rngs.o $(CFLAGS)
 
 randomtestadventurer: randomtestadventurer.c dominion.o
@@ -90,7 +90,7 @@ randomtestcard1.out: randomtestcard1 playdom
 
 randomtestcard2.out: randomtestcard2 playdom
 	./randomtestcard2 >> randomtestcard2.out
-	echo "GCOV AFTER randomtestcard1" >> randomtestcard2.out
+	echo "GCOV AFTER randomtestcard2” >> randomtestcard2.out
 	gcov dominion.c >> randomtestcard2.out 
 
 randomtestadventurer.out: randomtestadventurer playdom

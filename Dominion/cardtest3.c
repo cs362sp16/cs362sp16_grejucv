@@ -18,7 +18,7 @@ int assertTrue(int test, char* message){
 }
 
 int main(){
-    printf("testing steward\n");
+    printf("testing outpost\n");
     struct gameState G;
     int k[10] = {adventurer, gardens, embargo, village, minion, mine, cutpurse,
 	       sea_hag, tribute, smithy};

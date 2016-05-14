@@ -10,9 +10,9 @@
 int main(int argc, char *argv[]){
     printf("Random testing adventurer\n");
     srand(time(NULL));
-    int i, passed =0, failed =0, test, handCount, deckCount;
+    int i, passed =0, failed =0, test;
     for(i=0; i<1000;i++){
-        struct gameState G, G2;
+        struct gameState G;
         int k[10] = {adventurer, gardens, embargo, village, minion, mine, cutpurse,
 	                 sea_hag, tribute, smithy};
     
@@ -39,5 +39,6 @@ int main(int argc, char *argv[]){
         }
     
     }
-    printf("Cases that passed: %i\nCases that failed: %i", passed, failed);
+    printf("Tests passed: %i\n", passed);
+    printf("Tests failed: %i\n", failed);
 }

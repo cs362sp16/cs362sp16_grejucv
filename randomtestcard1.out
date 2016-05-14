@@ -1,0 +1,8 @@
+random testing steward
+Tests passed: 3000
+Tests failed: 1000
+GCOV AFTER randomtestcard1
+File 'dominion.c'
+Lines executed:25.38% of 650
+dominion.c:creating 'dominion.c.gcov'
+

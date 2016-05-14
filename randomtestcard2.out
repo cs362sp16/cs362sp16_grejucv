@@ -1,0 +1,8 @@
+random testing outpost
+Tests passed: 3000
+Tests failed: 0
+GCOV AFTER randomtestcard2
+File 'dominion.c'
+Lines executed:22.46% of 650
+dominion.c:creating 'dominion.c.gcov'
+

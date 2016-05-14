@@ -1,0 +1,8 @@
+Random testing adventurer
+Tests passed: 1000
+Tests failed: 0
+GCOV AFTER randomtestadventurer
+File 'dominion.c'
+Lines executed:21.85% of 650
+dominion.c:creating 'dominion.c.gcov'
+
