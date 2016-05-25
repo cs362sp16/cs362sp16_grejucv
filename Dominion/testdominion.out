@@ -1,0 +1,241 @@
+Starting Dominion Game
+Player 0 turn
+Player 0 money count: 4
+Gold purchased
+Player 0 Score: 3
+Player 1 turn
+Player 1 money count: 3
+Gold purchased
+Player 1 Score: 3
+Player 2 turn
+Player 2 money count: 4
+Gold purchased
+Player 2 Score: 3
+Player 0 turn
+Player 0 money count: 3
+Gold purchased
+Player 0 Score: 6
+Player 1 turn
+Player 1 money count: 4
+Gold purchased
+Player 1 Score: 6
+Player 2 turn
+Player 2 money count: 3
+Gold purchased
+Player 2 Score: 6
+Player 0 turn
+Player 0 money count: 3
+Gold purchased
+Player 0 Score: 3
+Player 1 turn
+Player 1 money count: 4
+Duchy purchased
+Gold purchased
+Player 1 Score: 3
+Player 2 turn
+Player 2 money count: 3
+Duchy purchased
+Gold purchased
+Player 2 Score: 3
+Player 0 turn
+Player 0 money count: 4
+Gold purchased
+Player 0 Score: 6
+Player 1 turn
+Player 1 money count: 3
+Duchy purchased
+Gold purchased
+Player 1 Score: 6
+Player 2 turn
+Player 2 money count: 4
+Duchy purchased
+Gold purchased
+Player 2 Score: 6
+Player 0 turn
+Player 0 money count: 3
+Duchy purchased
+Gold purchased
+Player 0 Score: 3
+Player 1 turn
+Player 1 money count: 3
+Duchy purchased
+Gold purchased
+Player 1 Score: 3
+Player 2 turn
+Player 2 money count: 4
+Duchy purchased
+Gold purchased
+Player 2 Score: 3
+Player 0 turn
+Player 0 money count: 4
+Province purchased
+Gold purchased
+Player 0 Score: 6
+Player 1 turn
+Player 1 money count: 4
+Duchy purchased
+Gold purchased
+Player 1 Score: 6
+Player 2 turn
+Player 2 money count: 3
+Duchy purchased
+Gold purchased
+Player 2 Score: 6
+Player 0 turn
+Player 0 money count: 4
+Province purchased
+Gold purchased
+Player 0 Score: 3
+Player 1 turn
+Player 1 money count: 4
+Duchy purchased
+Gold purchased
+Player 1 Score: 3
+Player 2 turn
+Player 2 money count: 4
+Duchy purchased
+Gold purchased
+Player 2 Score: 3
+Player 0 turn
+Player 0 money count: 3
+Gold purchased
+Player 0 Score: 6
+Player 1 turn
+Player 1 money count: 3
+Gold purchased
+Player 1 Score: 6
+Player 2 turn
+Player 2 money count: 3
+Duchy purchased
+Gold purchased
+Player 2 Score: 6
+Player 0 turn
+Player 0 money count: 3
+Gold purchased
+Player 0 Score: 3
+Player 1 turn
+Player 1 money count: 4
+Duchy purchased
+Gold purchased
+Player 1 Score: 3
+Player 2 turn
+Player 2 money count: 3
+Gold purchased
+Player 2 Score: 3
+Player 0 turn
+Player 0 money count: 4
+Province purchased
+Gold purchased
+Player 0 Score: 6
+Player 1 turn
+Player 1 money count: 3
+Duchy purchased
+Gold purchased
+Player 1 Score: 6
+Player 2 turn
+Player 2 money count: 4
+Gold purchased
+Player 2 Score: 6
+Player 0 turn
+Player 0 money count: 3
+Duchy purchased
+Gold purchased
+Player 0 Score: 3
+Player 1 turn
+Player 1 money count: 4
+Duchy purchased
+Gold purchased
+Player 1 Score: 3
+Player 2 turn
+Player 2 money count: 3
+Gold purchased
+Player 2 Score: 3
+Player 0 turn
+Player 0 money count: 4
+Duchy purchased
+Gold purchased
+Player 0 Score: 6
+Player 1 turn
+Player 1 money count: 3
+Gold purchased
+Player 1 Score: 6
+Player 2 turn
+Player 2 money count: 4
+Duchy purchased
+Gold purchased
+Player 2 Score: 6
+Player 0 turn
+Player 0 money count: 4
+Duchy purchased
+Gold purchased
+Player 0 Score: 3
+Player 1 turn
+Player 1 money count: 4
+Gold purchased
+Player 1 Score: 3
+Player 2 turn
+Player 2 money count: 4
+Duchy purchased
+Gold purchased
+Player 2 Score: 3
+Player 0 turn
+Player 0 money count: 3
+Gold purchased
+Player 0 Score: 6
+Player 1 turn
+Player 1 money count: 3
+Duchy purchased
+Gold purchased
+Player 1 Score: 6
+Player 2 turn
+Player 2 money count: 3
+Duchy purchased
+Gold purchased
+Player 2 Score: 6
+Player 0 turn
+Player 0 money count: 3
+Duchy purchased
+Gold purchased
+Player 0 Score: 3
+Player 1 turn
+Player 1 money count: 3
+Duchy purchased
+Gold purchased
+Player 1 Score: 3
+Player 2 turn
+Player 2 money count: 2
+Gold purchased
+Player 2 Score: 3
+Player 0 turn
+Player 0 money count: 4
+Duchy purchased
+Gold purchased
+Player 0 Score: 6
+Player 1 turn
+Player 1 money count: 4
+Duchy purchased
+Gold purchased
+Player 1 Score: 6
+Player 2 turn
+Player 2 money count: 5
+Duchy purchased
+Gold purchased
+Player 2 Score: 9
+Player 0 turn
+Player 0 money count: 3
+Duchy purchased
+Gold purchased
+Player 0 Score: 3
+Player 1 turn
+Player 1 money count: 3
+Gold purchased
+Player 1 Score: 3
+Player 2 turn
+Player 2 money count: 5
+Province purchased
+Gold purchased
+Player 1 wins
+File 'dominion.c'
+Lines executed:63.08% of 650
+dominion.c:creating 'dominion.c.gcov'
+

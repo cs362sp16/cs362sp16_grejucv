@@ -61,7 +61,7 @@ int main (int argc, char** argv) {
 	  }
 	  i++;
 	}
-      }
+    }
 
       if (money >= 8) {
         printf("0: bought province\n"); 
