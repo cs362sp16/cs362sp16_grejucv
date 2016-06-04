@@ -1,0 +1,19 @@
+I made a random tester for the adventurer card. When this card is used, it will draw card from the players deck until two treasure cards are pulled out. After two treasure cards are pulled, it will discard all of the other cards that were revealed. After random testing this card, I noticed that it would draw cards until two treasure cards were revealed. This part worked as it should, but when it came to discarding the cards, it was not getting rid of all the cards at the end. This resulted in having too many cards in hand after playing the adventurer, unless the first two cards that were drawn were treasure card. But this didn’t happen very often. 
+
+I found this bug, but I wasn’t too sure what was causing it and how it ended up in my code. When I was testing one of my classmates code, I noticed that his code was not having this problem. I assumed the cardEffect or the discard was not working correctly. I used GDB debugger to step through my game. The game did crash and go into loops at some points, but it was not caused by anything in adventurer. I eventually saw that the code at the end of adventurer was only discarding one non-treasure card when it supposed to discard all of them. After looking through my code, this is what I noticed at the end of adventurer. 
+
+if(z-1>=0){
+        state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; 
+        z=z-1;
+} 
+
+The fix to this is changing the if statement to a while. It was checking if I had drawn additional cards that were not treasure cards and discarding only once. It should keep doing the discard until z-1 is no longer greater than or equal to zero. 
+
+Rule #1 of David Agans Debugging Rules says understand the system. I spent some time learning and playing dominion. If I didn’t understand the rules of the game, I would not have known that the cards should be discarded at the end. 
+
+
+Rules #2 says make it fail. I was making it fail every time that adventurer was called and the first two cards drawn were not treasure cards. 
+
+Rules #9 says if you didn’t fix it, it ain’t fixed. I made sure to actually fix the issue, and then check that it was working correctly. I good example of how to break this rule is by just never using the adventurer card. If the card isn’t used, then the bug will never be encountered. This is obviously a terrible thing to do.   
+
+
