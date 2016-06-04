@@ -647,7 +647,7 @@ void village_function(int currentPlayer, struct gameState *state, int handPos){
     //+1 Card
     drawCard(currentPlayer, state);
     
-    state->numActions = state->numActions + 3;
+    state->numActions = state->numActions + 2;
     
     //discard played card from hand
     discardCard(handPos, currentPlayer, state, 0);
@@ -669,7 +669,7 @@ void adventurer_function(int drawntreasure, struct gameState *state, int current
             z++;
         }
     }
-    while(z-1>=0){
+    if(z-1>=0){
         state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
         z=z-1;
     }

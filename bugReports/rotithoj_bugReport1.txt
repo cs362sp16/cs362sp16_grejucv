@@ -1,0 +1,15 @@
+I tested the village function using my card test from assignment 2.
+When you have an action and then you use a village card, you should have two actions 
+left. But I was getting three actions left. Your village function was giving me two 
+additional actions, but I also should have lost an action after using it. 
+Below is my test: 
+
+testing village_function()
+Number of actions left: 1
+Playing village card
+Number of actions left: 3
+TEST FAILED: Should have two additional actions
+
+The severity of this bug is low, but the priority is high. The game can still 
+be played all the way through, and all players will get an additional card. But 
+it should be fixed immediately because having an extra action will change the flow of play.  

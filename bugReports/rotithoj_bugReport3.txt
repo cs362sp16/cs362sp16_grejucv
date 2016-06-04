@@ -1,0 +1,5 @@
+The third bug I found was in the village card, again. The first bug I found from 
+village was that it gave too many actions. After testing the rest of the functions
+and checking how it changes values in the game, I noticed that it was not discarding cards properly. I was left with more cards in hand than I was supposed to have. 
+
+This is a high priority and high severity bug. Cards are always supposed to be discarded at the end of a turn. The fix for this bug is to look how discard is being called, and see how it behaves using a debugger. 

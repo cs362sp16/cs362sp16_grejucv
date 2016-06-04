@@ -28,8 +28,15 @@ int main(){
     
     G.hand[0][0] = village;
     G.numActions = 1;
+    printf("Number of actions left: %i\n", G.numActions);
+    printf("Playing village card\n");
+    cardEffect(village, 1, 0, 0, &G, 0, 0);
+    assertTrue(G.numActions == 2, "Should have two additional actions");
+    printf("Number of actions left: %i\n", G.numActions);
+    /*
     assertTrue(numHandCards(&G)==5, "Should have five cards");
     cardEffect(steward, 1, 0, 0, &G, 0, 0);
     assertTrue(G.numActions == 4, "Should have added 3 actions");
     assertTrue(numHandCards(&G)==5, "Should have five cards after adding and discarding");
+    */
 }
