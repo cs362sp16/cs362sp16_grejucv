@@ -669,7 +669,7 @@ void adventurer_function(int drawntreasure, struct gameState *state, int current
             z++;
         }
     }
-    if(z-1>=0){
+    while(z-1>=0){
         state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
         z=z-1;
     }
