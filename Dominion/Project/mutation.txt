@@ -1,1 +1,58 @@
-I got 100 mutants of the dominion code for my mutation testing. 
+I got 100 mutants of the dominion code for my mutation testing. I used my unit tests and my random testers to see how many bugs they would detect. I did my unit test for game over, unit test for initialize, and random tester for outpost. I looked through some of the mutated dominion code to find some that had obvious defects in isGameOver, outpost, and initialize. Both my unit tests and my random tester were able to catch most defects in the code. My unit tests did better than my random tester. The random tester was missing some branches that had mutations. Below are some of the mutations and results of my testing.  
+
+Initialize function: 
+  
+  //original 
+  state->supplyCount[copper] = 60 - (7 * numPlayers);
+  state->supplyCount[silver] = 40;
+  state->supplyCount[gold] = 30;
+  
+  //mutation 
+  state->supplyCount[copper] = 60 - (7 + numPlayers);
+  state->supplyCount[silver] = 40;
+  state->supplyCount[gold] = 30;
+
+  My test did catch this defect since I tested for starting supply of coins. 
+
+isGameOver function: 
+   
+  //original 
+  j = 0;
+  for (i = 0; i < 25; i++)
+    {
+      if (state->supplyCount[i] == 0)
+	{
+	  j++;
+	}
+    }
+  if ( j >= 3)
+    {
+      return 1;
+    }
+
+  return 0;
+  
+  //mutation: 
+  j = 0;
+  for (i = 0; i < 25; i++)
+    {
+      if (state->supplyCount[i] == 0)
+	{
+	  j++;
+	}
+    }
+  if ( j == 3)
+    {
+      return 1;
+    }
+
+  return 0;
+  
+My unit test for isGameOver tested to see if the game ended when supply cards were empty. I was able to catch this defect.   
+
+
+
+
+
+
+	

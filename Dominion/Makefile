@@ -104,10 +104,9 @@ testdominion.out: testdominion playdom
 	./testdominion >> testdominion.out
 	gcov dominion.c >> testdominion.out 
 
-cardtest1.out: cardtest1 playdom
-	./cardtest1 >> cardtest1.out
-	gcov dominion.c >> cardtest1.out 
-
+unittest1.out: unittest1 playdom
+	./unittest1 >> unittest1.out
+	gcov dominion.c >> unittest1.out 
 
 interface.o: interface.h interface.c
 	gcc -c interface.c -g  $(CFLAGS)

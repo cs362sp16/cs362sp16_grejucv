@@ -1,0 +1,11 @@
+Testing isGameOver()
+Game is initialized and should not be over:  
+TESTS SUCCESSFULLY COMPLETED
+Province cards are out, game should be over: 
+TESTS SUCCESSFULLY COMPLETED
+Three supply piled are out, game should be over: 
+TESTS SUCCESSFULLY COMPLETED
+File 'dominion.c'
+Lines executed:17.85% of 650
+dominion.c:creating 'dominion.c.gcov'
+
