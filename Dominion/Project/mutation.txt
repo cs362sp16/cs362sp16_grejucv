@@ -1,4 +1,11 @@
-I got 100 mutants of the dominion code for my mutation testing. I used my unit tests and my random testers to see how many bugs they would detect. I did my unit test for game over, unit test for initialize, and random tester for outpost. I looked through some of the mutated dominion code to find some that had obvious defects in isGameOver, outpost, and initialize. Both my unit tests and my random tester were able to catch most defects in the code. My unit tests did better than my random tester. The random tester was missing some branches that had mutations. Below are some of the mutations and results of my testing.  
+I got 100 mutants of the dominion code for my mutation testing. I used my unit tests
+and my random testers to see how many bugs they would detect. I did my unit test for
+game over, unit test for initialize, and random tester for outpost. I looked through
+some of the mutated dominion code to find some that had obvious defects in
+isGameOver, outpost, and initialize. Both my unit tests and my random tester were
+able to catch most defects in the code. My unit tests did better than my random
+tester. The random tester was missing some branches that had mutations. Below are
+some of the mutations and results of my testing.  
 
 Initialize function: 
   

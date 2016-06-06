@@ -3,4 +3,5 @@ me draw three cards, but the drawCard was not working at all. After looking
 through your code, I noticed that the parameters were being passed in wrong 
 when drawCard was called. 
 
-This is high severity and high priority. The smithy card is used often in the game, and it should be drawing three new cards each time you use it or else it is useless. 
+This is high severity and high priority. The smithy card is used often in the game,
+and it should be drawing three new cards each time you use it or else it is useless. 
